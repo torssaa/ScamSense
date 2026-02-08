@@ -68,5 +68,5 @@ This project is for educational purposes as part of cybersecurity research.
 
 ---
 
-*Stay safe out there! 🐜🚫*
+*Stay safe out there! 🚫*
 >>>>>>> 763b53f (Initialize ScamSense: AI-Powered Scam Detector)
