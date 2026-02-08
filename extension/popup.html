@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #fff;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            color: #2563eb;
+        }
+
+        .header-icon {
+            font-size: 20px;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .btn-scan {
+            width: 100%;
+            padding: 14px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-scan:hover {
+            background: #1d4ed8;
+        }
+
+        .btn-scan:active {
+            transform: scale(0.98);
+        }
+
+        .status {
+            margin-top: 15px;
+            font-size: 13px;
+            color: #64748b;
+            text-align: center;
+            line-height: 1.4;
+            min-height: 36px;
+        }
+
+        .platforms {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 15px;
+            color: #94a3b8;
+            font-size: 18px;
+        }
+
+        .platform-tag {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <span class="header-icon">🛡️</span>
+        <h2>ScamSense</h2>
+    </div>
+
+    <button id="scanBtn" class="btn-scan">Scan this message</button>
+
+    <div id="status" class="status">Open Gmail, Outlook, WhatsApp or Telegram to start scanning</div>
+
+    <div class="platforms">
+        <span title="Email">✉️</span>
+        <span title="Chat">💬</span>
+        <span title="Mobile">📱</span>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
