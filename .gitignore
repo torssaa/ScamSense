@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.local
+venv/
+.idea/
+.vscode/
+chroma_db/
+@AutomationLog.txt
+*.log
