@@ -12,7 +12,7 @@ ScamSense is a hybrid security system designed to protect users from phishing an
 - **Multi-Platform Support:** Works seamlessly on **WhatsApp Web**, **Telegram Web** (Version K & A), and **Gmail**.
 - **Manual Scanning:** Click "Scan This Message" in the extension popup to analyze the currently open conversation.
 - **Background Protection:** Automatically monitors incoming messages and displays a high-visibility UI alert directly on the page if a scam is detected.
-- **AI Intelligence:** Powered by **Gemini 1.5 Flash** for sophisticated intent analysis.
+- **AI Intelligence:** Powered by **Gemini 3 Flash** for sophisticated intent analysis.
 - **Knowledge Base (RAG):** Uses a local database of known scam patterns to provide context-aware results and reduce false positives.
 
 ---
@@ -57,7 +57,7 @@ ScamSense is a hybrid security system designed to protect users from phishing an
 
 - **Frontend:** Pure JavaScript Content Scripts and Browser Extension.
 - **Backend:** FastAPI (Python) serving an inference endpoint.
-- **AI Engine:** Google Generative AI (Gemini 1.5 Flash).
+- **AI Engine:** Google Generative AI (Gemini 3 Flash).
 - **Vector DB:** ChromaDB for local scam pattern storage.
 - **Protection Logic:** MutationObservers for real-time DOM monitoring.
 
